@@ -39,13 +39,9 @@ In this initial version of this project, new videos are added manually. This wou
 1. get link from rss feed eg `https://vimeo.com/154077397`
 1. launch a browser and go to the link (eg `https://vimeo.com/154077397`)
 click download button
-
 ![[]](screenshots/download-button.png)
-
 1. on popup, click on download HD 720p (css selector: `#download_panel > table > tbody > tr:nth-child(4) > td:nth-child(3) > a`)
-
 ![[]](screenshots/download-hd720p.png)
-
 1. do any necessary video conversion for iTunes compatibility (I think none is necessary for HD 720p videos in mp4 format)
 1. upload the video file to s3 for direct linking in the podcast URL
 1. get a direct link back from s3
