@@ -26,9 +26,9 @@ This project solves these two problems by mirroring the videos and generating a 
 
 There are two components to this project:
 
- * *Generating the podcast feed* - We're using [Jekyll](https://jekyllrb.com) for this. Each video is a new post. We also use Jekyll to generate a simple landing page for the podcast.
+ * **Generating the podcast feed** - We're using [Jekyll](https://jekyllrb.com) for this. Each video is a new post. We also use Jekyll to generate a simple landing page for the podcast.
  * *Hosting video files* - These go on Amazon S3 because it allows us to directly link to the files, unlike Vimeo & YouTube.
- * *Checking for new videos & adding them* - Right now this is manual, in the future it may be automated. This process involves downloading the video from vimeo or youtube, uploading to amazon s3, creating a new post on this Jekyll blog and then pushing the changes to github to regenerate the site, which is hosted on Github Pages.
+ * **Checking for new videos & adding them** - Right now this is manual, in the future it may be automated. This process involves downloading the video from vimeo or youtube, uploading to amazon s3, creating a new post on this Jekyll blog and then pushing the changes to github to regenerate the site, which is hosted on Github Pages.
 
 ### Future Improvement: Automation (maybe)
 
