@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Democracy Now! Video</title>
+    <atom:link rel="self" href="http://www.democracynow.org/podcast-video.xml" title="Democracy Now! Video" xmlns:atom="http://www.w3.org/2005/Atom"/>
+    <link>http://www.democracynow.org/</link>
+    <description>Democracy Now! is an independent daily TV &amp; radio news program, hosted by award-winning journalists Amy Goodman and Juan Gonz&#225;lez. We provide daily global news headlines, in-depth interviews and investigative reports without any advertisements or government funding. Our programming shines a spotlight on corporate and government abuses of power and lifts up the stories of ordinary people working to make change in extraordinary times. Democracy Now! is live weekdays at 8am ET and available 24/7 through our website and podcasts.</description>
+    <language>en-US</language>
+    <webMaster>mail@democracynow.org (Democracy Now!)</webMaster>
+    <image>
+      <url>http://www.democracynow.org/images/dn-logo-for-podcast.png?201601281344</url>
+      <link>http://www.democracynow.org/</link>
+      <width>144</width>
+      <height>144</height>
+      <title>Democracy Now! Video</title>
+    </image>
+    <itunes:author>Democracy Now!</itunes:author>
+    <itunes:category text="News &amp; Politics"/>
+    <itunes:category text="Government &amp; Organizations">
+      <itunes:category text="Non-Profit"/>
+    </itunes:category>
+    <itunes:owner>
+      <itunes:email>webdev@democracynow.org</itunes:email>
+      <itunes:name>David Prude</itunes:name>
+      <!-- Note: this email address is for iTunes use only; other contacts here will be ignored. -->
+    </itunes:owner>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Democracy Now! 2016-02-03 Wednesday</title>
+      <link>http://www.democracynow.org/shows/2016/2/3</link>
+      <description>Headlines for February 03, 2016; Privatization on Steroids: Emergency Manager Who Switched Flint Water Resigns from Detroit Schools; Jewish Peace Groups Reveal Role in Spoof New York Times That Criticized Paper's Stance on Israel; Michael Eric Dyson on &quot;The Black Presidency: Barack Obama and the Politics of Race in America&quot;</description>
+      <pubDate>Wed, 03 Feb 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-02-03:media/mpeg4podcast/44f314</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0203.mp4" type="video/mp4" length="205362662"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/50/29750/medium/Flint.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0203.mp4" fileSize="205362662" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-02-03 Wednesday</media:title>
+        <media:description>Headlines for February 03, 2016; Privatization on Steroids: Emergency Manager Who Switched Flint Water Resigns from Detroit Schools; Jewish Peace Groups Reveal Role in Spoof New York Times That Criticized Paper's Stance on Israel; Michael Eric Dyson on &quot;The Black Presidency: Barack Obama and the Politics of Race in America&quot;</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for February 03, 2016; Privatization on Steroids: Emergency Manager Who Switched Flint Water Resigns from Detroit Schools; Jewish Peace Groups Reveal Role in Spoof New York Times That Criticized Paper's Stance on Israel; Michael Eric Dyson on "The Black Presidency: Barack Obama and the Politics of Race in America"]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-02-03 Wednesday</h1>
+<ul>
+    <li>Headlines for February 03, 2016</li>
+    <li>Privatization on Steroids: Emergency Manager Who Switched Flint Water Resigns from Detroit Schools</li>
+    <li>Jewish Peace Groups Reveal Role in Spoof New York Times That Criticized Paper&#x27;s Stance on Israel</li>
+    <li>Michael Eric Dyson on &quot;The Black Presidency: Barack Obama and the Politics of Race in America&quot;</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0203.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title>Democracy Now! 2016-02-02 Tuesday</title>
+      <link>http://www.democracynow.org/shows/2016/2/2</link>
+      <description>Headlines for February 02, 2016; Iowa Caucuses: Bernie Sanders Rallies to Tie Hillary Clinton; Ted Cruz Upsets Donald Trump; After Dead Heat in Iowa, Will Clinton Move Further Left to Stop the Sanders Surge?; The Road to the White House Begins in Iowa, But Is It Already Sold to Wealthy Donors?; Clinton Laughs Off Question on Goldman Sachs, But Can Millions in Special Interest Cash Be Ignored?</description>
+      <pubDate>Tue, 02 Feb 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-02-02:media/mpeg4podcast/53ba29</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0202.mp4" type="video/mp4" length="222313147"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/26/29726/medium/caucus-iowa-sanders_1.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0202.mp4" fileSize="222313147" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-02-02 Tuesday</media:title>
+        <media:description>Headlines for February 02, 2016; Iowa Caucuses: Bernie Sanders Rallies to Tie Hillary Clinton; Ted Cruz Upsets Donald Trump; After Dead Heat in Iowa, Will Clinton Move Further Left to Stop the Sanders Surge?; The Road to the White House Begins in Iowa, But Is It Already Sold to Wealthy Donors?; Clinton Laughs Off Question on Goldman Sachs, But Can Millions in Special Interest Cash Be Ignored?</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for February 02, 2016; Iowa Caucuses: Bernie Sanders Rallies to Tie Hillary Clinton; Ted Cruz Upsets Donald Trump; After Dead Heat in Iowa, Will Clinton Move Further Left to Stop the Sanders Surge?; The Road to the White House Begins in Iowa, But Is It Already Sold to Wealthy Donors?; Clinton Laughs Off Question on Goldman Sachs, But Can Millions in Special Interest Cash Be Ignored?]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-02-02 Tuesday</h1>
+<ul>
+    <li>Headlines for February 02, 2016</li>
+    <li>Iowa Caucuses: Bernie Sanders Rallies to Tie Hillary Clinton; Ted Cruz Upsets Donald Trump</li>
+    <li>After Dead Heat in Iowa, Will Clinton Move Further Left to Stop the Sanders Surge?</li>
+    <li>The Road to the White House Begins in Iowa, But Is It Already Sold to Wealthy Donors?</li>
+    <li>Clinton Laughs Off Question on Goldman Sachs, But Can Millions in Special Interest Cash Be Ignored?</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0202.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title>Democracy Now! 2016-02-01 Monday</title>
+      <link>http://www.democracynow.org/shows/2016/2/1</link>
+      <description>Headlines for February 01, 2016; Iowa Progressives Weigh Clinton vs Sanders as One of Whitest U.S. States Kicks Off Presidential Race; Bernie Sanders Says No to Fracked Oil Pipeline in Iowa, Will It Help Him in Today's Caucus?; From Taverns to Grain Elevators: How Iowa's Complex Caucus System Works</description>
+      <pubDate>Mon, 01 Feb 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-02-01:media/mpeg4podcast/9b613e</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0201.mp4" type="video/mp4" length="184369330"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/09/29709/medium/Bernie-Hilary.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0201.mp4" fileSize="184369330" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-02-01 Monday</media:title>
+        <media:description>Headlines for February 01, 2016; Iowa Progressives Weigh Clinton vs Sanders as One of Whitest U.S. States Kicks Off Presidential Race; Bernie Sanders Says No to Fracked Oil Pipeline in Iowa, Will It Help Him in Today's Caucus?; From Taverns to Grain Elevators: How Iowa's Complex Caucus System Works</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for February 01, 2016; Iowa Progressives Weigh Clinton vs Sanders as One of Whitest U.S. States Kicks Off Presidential Race; Bernie Sanders Says No to Fracked Oil Pipeline in Iowa, Will It Help Him in Today's Caucus?; From Taverns to Grain Elevators: How Iowa's Complex Caucus System Works]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-02-01 Monday</h1>
+<ul>
+    <li>Headlines for February 01, 2016</li>
+    <li>Iowa Progressives Weigh Clinton vs Sanders as One of Whitest U.S. States Kicks Off Presidential Race</li>
+    <li>Bernie Sanders Says No to Fracked Oil Pipeline in Iowa, Will It Help Him in Today&#x27;s Caucus?</li>
+    <li>From Taverns to Grain Elevators: How Iowa&#x27;s Complex Caucus System Works</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0201.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title>Democracy Now! 2016-01-29 Friday</title>
+      <link>http://www.democracynow.org/shows/2016/1/29</link>
+      <description>Headlines for January 29, 2016; Trump Absent, GOP Presidential Candidates Face Off on Syria, Planned Parenthood and Islamophobia; Former Salt Lake City Mayor Sues Bush Admin. Officials for Mass Surveillance During 2002 Olympics; &quot;Audrie &amp; Daisy&quot;: Mother of Audrie Pott, Teen Who Committed Suicide After Assault, Tells Her Story; Maryville Rape Survivor Daisy Coleman Meets Mom of Teen Who Killed Herself After Similar Ordeal</description>
+      <pubDate>Fri, 29 Jan 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-01-29:media/mpeg4podcast/86e91d</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0129.mp4" type="video/mp4" length="176247489"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/94/29694/medium/GOPdebate.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0129.mp4" fileSize="176247489" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-01-29 Friday</media:title>
+        <media:description>Headlines for January 29, 2016; Trump Absent, GOP Presidential Candidates Face Off on Syria, Planned Parenthood and Islamophobia; Former Salt Lake City Mayor Sues Bush Admin. Officials for Mass Surveillance During 2002 Olympics; &quot;Audrie &amp; Daisy&quot;: Mother of Audrie Pott, Teen Who Committed Suicide After Assault, Tells Her Story; Maryville Rape Survivor Daisy Coleman Meets Mom of Teen Who Killed Herself After Similar Ordeal</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for January 29, 2016; Trump Absent, GOP Presidential Candidates Face Off on Syria, Planned Parenthood and Islamophobia; Former Salt Lake City Mayor Sues Bush Admin. Officials for Mass Surveillance During 2002 Olympics; "Audrie & Daisy": Mother of Audrie Pott, Teen Who Committed Suicide After Assault, Tells Her Story; Maryville Rape Survivor Daisy Coleman Meets Mom of Teen Who Killed Herself After Similar Ordeal]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-01-29 Friday</h1>
+<ul>
+    <li>Headlines for January 29, 2016</li>
+    <li>Trump Absent, GOP Presidential Candidates Face Off on Syria, Planned Parenthood and Islamophobia</li>
+    <li>Former Salt Lake City Mayor Sues Bush Admin. Officials for Mass Surveillance During 2002 Olympics</li>
+    <li>&quot;Audrie &amp; Daisy&quot;: Mother of Audrie Pott, Teen Who Committed Suicide After Assault, Tells Her Story</li>
+    <li>Maryville Rape Survivor Daisy Coleman Meets Mom of Teen Who Killed Herself After Similar Ordeal</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0129.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title>Democracy Now! 2016-01-28 Thursday</title>
+      <link>http://www.democracynow.org/shows/2016/1/28</link>
+      <description>Headlines for January 28, 2016; &quot;The Settlers&quot;: New Film Reveals History &amp; Consequences of Israeli Settlements on Palestinian Land; Covering War to End War: New Film Recounts Life &amp; Legacy of James Foley, Journalist Killed by ISIS</description>
+      <pubDate>Thu, 28 Jan 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-01-28:media/mpeg4podcast/844ee7</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0128.mp4" type="video/mp4" length="186938389"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/22/29222/medium/settlemnts4.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0128.mp4" fileSize="186938389" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-01-28 Thursday</media:title>
+        <media:description>Headlines for January 28, 2016; &quot;The Settlers&quot;: New Film Reveals History &amp; Consequences of Israeli Settlements on Palestinian Land; Covering War to End War: New Film Recounts Life &amp; Legacy of James Foley, Journalist Killed by ISIS</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for January 28, 2016; "The Settlers": New Film Reveals History & Consequences of Israeli Settlements on Palestinian Land; Covering War to End War: New Film Recounts Life & Legacy of James Foley, Journalist Killed by ISIS]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-01-28 Thursday</h1>
+<ul>
+    <li>Headlines for January 28, 2016</li>
+    <li>&quot;The Settlers&quot;: New Film Reveals History &amp; Consequences of Israeli Settlements on Palestinian Land</li>
+    <li>Covering War to End War: New Film Recounts Life &amp; Legacy of James Foley, Journalist Killed by ISIS</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0128.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title>Democracy Now! 2016-01-27 Wednesday</title>
+      <link>http://www.democracynow.org/shows/2016/1/27</link>
+      <description>Headlines for January 27, 2016; Life, Animated: A Remarkable Story of How a Family Reached Their Autistic Son Through Disney Movies; Embracing Autism: Journalist Ron Suskind on Supporting His Son's Strengths, Advice for Other Parents; Roger Ross Williams, the First Black Oscar-Winning Director, on &quot;Life, Animated&quot; &amp; #OscarsSoWhite</description>
+      <pubDate>Wed, 27 Jan 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-01-27:media/mpeg4podcast/8554f6</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0127.mp4" type="video/mp4" length="188286715"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/08/29208/medium/Lifeanimated.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0127.mp4" fileSize="188286715" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-01-27 Wednesday</media:title>
+        <media:description>Headlines for January 27, 2016; Life, Animated: A Remarkable Story of How a Family Reached Their Autistic Son Through Disney Movies; Embracing Autism: Journalist Ron Suskind on Supporting His Son's Strengths, Advice for Other Parents; Roger Ross Williams, the First Black Oscar-Winning Director, on &quot;Life, Animated&quot; &amp; #OscarsSoWhite</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for January 27, 2016; Life, Animated: A Remarkable Story of How a Family Reached Their Autistic Son Through Disney Movies; Embracing Autism: Journalist Ron Suskind on Supporting His Son's Strengths, Advice for Other Parents; Roger Ross Williams, the First Black Oscar-Winning Director, on "Life, Animated" & #OscarsSoWhite]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-01-27 Wednesday</h1>
+<ul>
+    <li>Headlines for January 27, 2016</li>
+    <li>Life, Animated: A Remarkable Story of How a Family Reached Their Autistic Son Through Disney Movies</li>
+    <li>Embracing Autism: Journalist Ron Suskind on Supporting His Son&#x27;s Strengths, Advice for Other Parents</li>
+    <li>Roger Ross Williams, the First Black Oscar-Winning Director, on &quot;Life, Animated&quot; &amp; #OscarsSoWhite</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0127.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title>Democracy Now! 2016-01-26 Tuesday</title>
+      <link>http://www.democracynow.org/shows/2016/1/26</link>
+      <description>Headlines for January 26, 2016; Josh Fox on His New Doc &quot;How to Let Go of the World and Love All the Things Climate Can't Change&quot;; Act Now, Cry Later: Tim DeChristopher, Aria Doe &amp; Josh Fox on Civil Disobedience &amp; Climate Activism; 40 Years After &quot;All the President's Men,&quot; Redford Plays Another Journo Challenging Power in &quot;Truth&quot;; Legendary Actor Robert Redford on Climate Change and #OscarsSoWhite; Sundance Too Big? Robert Redford Says Sundance May Separate into Narrative, Doc &amp; Shorts Festivals</description>
+      <pubDate>Tue, 26 Jan 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-01-26:media/mpeg4podcast/a2499b</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0126.mp4" type="video/mp4" length="224629214"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/89/29189/medium/JoshFox_filming4.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0126.mp4" fileSize="224629214" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-01-26 Tuesday</media:title>
+        <media:description>Headlines for January 26, 2016; Josh Fox on His New Doc &quot;How to Let Go of the World and Love All the Things Climate Can't Change&quot;; Act Now, Cry Later: Tim DeChristopher, Aria Doe &amp; Josh Fox on Civil Disobedience &amp; Climate Activism; 40 Years After &quot;All the President's Men,&quot; Redford Plays Another Journo Challenging Power in &quot;Truth&quot;; Legendary Actor Robert Redford on Climate Change and #OscarsSoWhite; Sundance Too Big? Robert Redford Says Sundance May Separate into Narrative, Doc &amp; Shorts Festivals</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for January 26, 2016; Josh Fox on His New Doc "How to Let Go of the World and Love All the Things Climate Can't Change"; Act Now, Cry Later: Tim DeChristopher, Aria Doe & Josh Fox on Civil Disobedience & Climate Activism; 40 Years After "All the President's Men," Redford Plays Another Journo Challenging Power in "Truth"; Legendary Actor Robert Redford on Climate Change and #OscarsSoWhite; Sundance Too Big? Robert Redford Says Sundance May Separate into Narrative, Doc & Shorts Festivals]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-01-26 Tuesday</h1>
+<ul>
+    <li>Headlines for January 26, 2016</li>
+    <li>Josh Fox on His New Doc &quot;How to Let Go of the World and Love All the Things Climate Can&#x27;t Change&quot;</li>
+    <li>Act Now, Cry Later: Tim DeChristopher, Aria Doe &amp; Josh Fox on Civil Disobedience &amp; Climate Activism</li>
+    <li>40 Years After &quot;All the President&#x27;s Men,&quot; Redford Plays Another Journo Challenging Power in &quot;Truth&quot;</li>
+    <li>Legendary Actor Robert Redford on Climate Change and #OscarsSoWhite</li>
+    <li>Sundance Too Big? Robert Redford Says Sundance May Separate into Narrative, Doc &amp; Shorts Festivals</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0126.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title>Democracy Now! 2016-01-25 Monday</title>
+      <link>http://www.democracynow.org/shows/2016/1/25</link>
+      <description>Headlines for January 25, 2016; 43 Years After Roe v. Wade, Supreme Court to Hear Case Threatening Women's Right to Choose; &quot;Trapped&quot;: New Film Follows the Providers Who Are Fighting to Keep Abortion Accessible in the South; Wicked Jezebel Feminist! Users Witness Anti-Choice Abuse in Virtual Reality Film &quot;Across the Line&quot;; #OscarsSoWhite: Black Filmmakers Call Out Hollywood Racism, Exclusion as Calls for Boycott Grow</description>
+      <pubDate>Mon, 25 Jan 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-01-25:media/mpeg4podcast/000809</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0125.mp4" type="video/mp4" length="202802743"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/73/29173/medium/RoeVwade-1.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0125.mp4" fileSize="202802743" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-01-25 Monday</media:title>
+        <media:description>Headlines for January 25, 2016; 43 Years After Roe v. Wade, Supreme Court to Hear Case Threatening Women's Right to Choose; &quot;Trapped&quot;: New Film Follows the Providers Who Are Fighting to Keep Abortion Accessible in the South; Wicked Jezebel Feminist! Users Witness Anti-Choice Abuse in Virtual Reality Film &quot;Across the Line&quot;; #OscarsSoWhite: Black Filmmakers Call Out Hollywood Racism, Exclusion as Calls for Boycott Grow</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for January 25, 2016; 43 Years After Roe v. Wade, Supreme Court to Hear Case Threatening Women's Right to Choose; "Trapped": New Film Follows the Providers Who Are Fighting to Keep Abortion Accessible in the South; Wicked Jezebel Feminist! Users Witness Anti-Choice Abuse in Virtual Reality Film "Across the Line"; #OscarsSoWhite: Black Filmmakers Call Out Hollywood Racism, Exclusion as Calls for Boycott Grow]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-01-25 Monday</h1>
+<ul>
+    <li>Headlines for January 25, 2016</li>
+    <li>43 Years After Roe v. Wade, Supreme Court to Hear Case Threatening Women&#x27;s Right to Choose</li>
+    <li>&quot;Trapped&quot;: New Film Follows the Providers Who Are Fighting to Keep Abortion Accessible in the South</li>
+    <li>Wicked Jezebel Feminist! Users Witness Anti-Choice Abuse in Virtual Reality Film &quot;Across the Line&quot;</li>
+    <li>#OscarsSoWhite: Black Filmmakers Call Out Hollywood Racism, Exclusion as Calls for Boycott Grow</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0125.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title>Democracy Now! 2016-01-22 Friday</title>
+      <link>http://www.democracynow.org/shows/2016/1/22</link>
+      <description>Headlines for January 22, 2016; Pink Floyd's Roger Waters Launches &quot;Campaign to Close Guant&#225;namo&quot; for Obama's Last Year in Office; Exclusive: Sickened by Gangrene in Utah Immigration Jail, Guatemalan Father Now Faces Deportation; Revered Poet Mart&#237;n Espada Reflects on Struggles Past &amp; Present in &quot;Vivas to Those Who Have Failed&quot;</description>
+      <pubDate>Fri, 22 Jan 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-01-22:media/mpeg4podcast/98c883</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0122.mp4" type="video/mp4" length="191717164"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/58/29158/medium/RogerWaters_1.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0122.mp4" fileSize="191717164" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-01-22 Friday</media:title>
+        <media:description>Headlines for January 22, 2016; Pink Floyd's Roger Waters Launches &quot;Campaign to Close Guant&#225;namo&quot; for Obama's Last Year in Office; Exclusive: Sickened by Gangrene in Utah Immigration Jail, Guatemalan Father Now Faces Deportation; Revered Poet Mart&#237;n Espada Reflects on Struggles Past &amp; Present in &quot;Vivas to Those Who Have Failed&quot;</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for January 22, 2016; Pink Floyd's Roger Waters Launches "Campaign to Close Guantánamo" for Obama's Last Year in Office; Exclusive: Sickened by Gangrene in Utah Immigration Jail, Guatemalan Father Now Faces Deportation; Revered Poet Martín Espada Reflects on Struggles Past & Present in "Vivas to Those Who Have Failed"]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-01-22 Friday</h1>
+<ul>
+    <li>Headlines for January 22, 2016</li>
+    <li>Pink Floyd&#x27;s Roger Waters Launches &quot;Campaign to Close Guantánamo&quot; for Obama&#x27;s Last Year in Office</li>
+    <li>Exclusive: Sickened by Gangrene in Utah Immigration Jail, Guatemalan Father Now Faces Deportation</li>
+    <li>Revered Poet Martín Espada Reflects on Struggles Past &amp; Present in &quot;Vivas to Those Who Have Failed&quot;</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0122.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title>Democracy Now! 2016-01-21 Thursday</title>
+      <link>http://www.democracynow.org/shows/2016/1/21</link>
+      <description>Headlines for January 21, 2016; Pakistan Mourns New Taliban School Massacre in Latest Blowback from Internal Conflict, Afghan War; British Lawmakers Debate Banning &quot;Fool,&quot; &quot;Buffoon&quot; Donald Trump over Anti-Muslim Views; Detroit Student: &quot;I Want to Be Able to Go to School Without Worrying About Being Bitten by Mice&quot;; Detroit Rocked by Teachers' &quot;Sickout&quot; Protesting Dire Conditions Under Emergency Management; The 1% Economy: The World's Richest 62 People Now Have as Much as Poorest 3.6 Billion</description>
+      <pubDate>Thu, 21 Jan 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-01-21:media/mpeg4podcast/d6780f</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0121.mp4" type="video/mp4" length="224702207"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/38/29138/medium/PakistanUniv.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0121.mp4" fileSize="224702207" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-01-21 Thursday</media:title>
+        <media:description>Headlines for January 21, 2016; Pakistan Mourns New Taliban School Massacre in Latest Blowback from Internal Conflict, Afghan War; British Lawmakers Debate Banning &quot;Fool,&quot; &quot;Buffoon&quot; Donald Trump over Anti-Muslim Views; Detroit Student: &quot;I Want to Be Able to Go to School Without Worrying About Being Bitten by Mice&quot;; Detroit Rocked by Teachers' &quot;Sickout&quot; Protesting Dire Conditions Under Emergency Management; The 1% Economy: The World's Richest 62 People Now Have as Much as Poorest 3.6 Billion</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for January 21, 2016; Pakistan Mourns New Taliban School Massacre in Latest Blowback from Internal Conflict, Afghan War; British Lawmakers Debate Banning "Fool," "Buffoon" Donald Trump over Anti-Muslim Views; Detroit Student: "I Want to Be Able to Go to School Without Worrying About Being Bitten by Mice"; Detroit Rocked by Teachers' "Sickout" Protesting Dire Conditions Under Emergency Management; The 1% Economy: The World's Richest 62 People Now Have as Much as Poorest 3.6 Billion]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-01-21 Thursday</h1>
+<ul>
+    <li>Headlines for January 21, 2016</li>
+    <li>Pakistan Mourns New Taliban School Massacre in Latest Blowback from Internal Conflict, Afghan War</li>
+    <li>British Lawmakers Debate Banning &quot;Fool,&quot; &quot;Buffoon&quot; Donald Trump over Anti-Muslim Views</li>
+    <li>Detroit Student: &quot;I Want to Be Able to Go to School Without Worrying About Being Bitten by Mice&quot;</li>
+    <li>Detroit Rocked by Teachers&#x27; &quot;Sickout&quot; Protesting Dire Conditions Under Emergency Management</li>
+    <li>The 1% Economy: The World&#x27;s Richest 62 People Now Have as Much as Poorest 3.6 Billion</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0121.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <title>Democracy Now! 2016-01-20 Wednesday</title>
+      <link>http://www.democracynow.org/shows/2016/1/20</link>
+      <description>Headlines for January 20, 2016; The Kochs &amp; the Nazis: Book Reveals Billionaires' Father Built Key Oil Refinery for the Third Reich; Dark Money: Jane Mayer on How the Koch Bros. &amp; Billionaire Allies Funded the Rise of the Far Right; How the Kochs Tried (and Failed) to Discredit Reporter Jane Mayer After She Exposed their Empire</description>
+      <pubDate>Wed, 20 Jan 2016 08:00:00 -0500</pubDate>
+      <guid isPermaLink="false">tag:democracynow.org,2016-01-20:media/mpeg4podcast/70e237</guid>
+      <enclosure url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0120.mp4" type="video/mp4" length="207765840"/>
+      <media:thumbnail url="http://www.democracynow.org/images/story/24/29124/medium/Nazis.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0120.mp4" fileSize="207765840" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Democracy Now! 2016-01-20 Wednesday</media:title>
+        <media:description>Headlines for January 20, 2016; The Kochs &amp; the Nazis: Book Reveals Billionaires' Father Built Key Oil Refinery for the Third Reich; Dark Money: Jane Mayer on How the Koch Bros. &amp; Billionaire Allies Funded the Rise of the Far Right; How the Kochs Tried (and Failed) to Discredit Reporter Jane Mayer After She Exposed their Empire</media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>59:00</itunes:duration>
+      <itunes:summary>
+        <![CDATA[Headlines for January 20, 2016; The Kochs & the Nazis: Book Reveals Billionaires' Father Built Key Oil Refinery for the Third Reich; Dark Money: Jane Mayer on How the Koch Bros. & Billionaire Allies Funded the Rise of the Far Right; How the Kochs Tried (and Failed) to Discredit Reporter Jane Mayer After She Exposed their Empire]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <content:encoded>
+        <![CDATA[<h1>Democracy Now! 2016-01-20 Wednesday</h1>
+<ul>
+    <li>Headlines for January 20, 2016</li>
+    <li>The Kochs &amp; the Nazis: Book Reveals Billionaires&#x27; Father Built Key Oil Refinery for the Third Reich</li>
+    <li>Dark Money: Jane Mayer on How the Koch Bros. &amp; Billionaire Allies Funded the Rise of the Far Right</li>
+    <li>How the Kochs Tried (and Failed) to Discredit Reporter Jane Mayer After She Exposed their Empire</li>
+</ul>
+<p><a href="http://publish.dvlabs.com/democracynow/video-podcast/dn2016-0120.mp4">Download this show</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <category>Web Exclusive</category>
+      <title>Watch: Hillary Clinton Touts Progressive Record in Speech After Iowa Caucus</title>
+      <link>http://www.democracynow.org/2016/2/1/watch_hillary_clinton_touts_progressive_record</link>
+      <guid isPermaLink="false">tag:democracynow.org,2016-02-01:blog/3884f0</guid>
+      <description> The Iowa caucus ended in a virtual tie between Hillary Clinton and rival Sen. Bernie Sanders. Watch the full speech Clinton gave after the election results came in. </description>
+      <content:encoded>
+        <![CDATA[<p>The Iowa caucus ended in a virtual tie between Hillary Clinton and rival Sen. Bernie Sanders. Watch the full speech Clinton gave after the election results came in.</p>]]>
+      </content:encoded>
+      <pubDate>Tue, 02 Feb 2016 14:23:12 -0500</pubDate>
+      <itunes:author>Democracy Now!</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:summary>
+        <![CDATA[ The Iowa caucus ended in a virtual tie between Hillary Clinton and rival Sen. Bernie Sanders. Watch the full speech Clinton gave after the election results came in. ]]>
+      </itunes:summary>
+      <itunes:image href="http://www.democracynow.org/images/dn-logo-for-itunes-1400.jpg?201601281344"/>
+      <enclosure url="http://publish.dvlabs.com/democracynow/360/wx2016-0202_HillaryClinton-IOWA-Caucus-v2-360P.mp4
+" type="video/mp4" length="24648903"/>
+      <media:thumbnail url="http://www.democracynow.org/images/blog_posts/45/29745/medium/HillaryClinton.jpg?201601281344"/>
+      <media:content url="http://publish.dvlabs.com/democracynow/360/wx2016-0202_HillaryClinton-IOWA-Caucus-v2-360P.mp4
+" fileSize="24648903" expression="full" type="video/mp4" duration="3540" lang="en" medium="video">
+        <media:title type="plain">Watch: Hillary Clinton Touts Progressive Record in Speech After Iowa Caucus</media:title>
+        <media:description type="html"> The Iowa caucus ended in a virtual tie between Hillary Clinton and rival Sen. Bernie Sanders. Watch the full speech Clinton gave after the election results came in. </media:description>
+        <media:rating scheme="urn:simple">nonadult</media:rating>
+        <media:rating scheme="urn:v-chip">tv-g</media:rating>
+        <media:player url="http://publish.dvlabs.com/democracynow/360/wx2016-0202_HillaryClinton-IOWA-Caucus-v2-360P.mp4
+"/>
+        <media:credit role="production company">Democracy Now!</media:credit>
+        <media:category>News</media:category>
+      </media:content>
+    </item>
+  </channel>
+</rss>
