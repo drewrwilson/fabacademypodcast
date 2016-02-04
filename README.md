@@ -17,8 +17,8 @@ I'm a student in [FabAcademy](http://fabacademy.org), a 5-month course on digita
 ## The Problem
 
 There are two problems that make this tricky:
- 1. *Vimeo does not offer iTunes podcast feed as a feature.* Apparently people have been asking for this feature [for](https://vimeo.com/forums/topic:1007) [years](https://vimeo.com/forums/feature_requests/topic:5609), but Vimeo still has not done it. Additionally, Vimeo does not allow hotlinking to downloads of videos hosted on their platform.
- 1. *Videos for this course are posted on multiple platforms. Vimeo + YouTube* Lectures are posted on vimeo & guest lectures are posted on YouTube. Both of these weekly videos are important parts of the course, but because these videos are on two different platforms it's a little tricky to subscribe.
+ 1. **Vimeo does not offer iTunes podcast feed as a feature.** Apparently people have been asking for this feature [for](https://vimeo.com/forums/topic:1007) [years](https://vimeo.com/forums/feature_requests/topic:5609), but Vimeo still has not done it. Additionally, Vimeo does not allow hotlinking to downloads of videos hosted on their platform.
+ 1. **Videos for this course are posted on multiple platforms. Vimeo + YouTube** Lectures are posted on vimeo & guest lectures are posted on YouTube. Both of these weekly videos are important parts of the course, but because these videos are on two different platforms it's a little tricky to subscribe.
 
 This project solves these two problems by mirroring the videos and generating a video podcast feed for the course.
 
