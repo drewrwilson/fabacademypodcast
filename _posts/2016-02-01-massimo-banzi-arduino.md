@@ -15,8 +15,6 @@ video:
   duration: 3086
   language: en
   medium: video
-  title: "Recitation 01: Massimo Banzi, Arduino Co-founder"
-  description: "Recitation 01: Massimo Banzi, Arduino Co-founder"
   ratingSimple: nonadult
   ratingvchip: tv-g
   productionCompany: FabAcademy

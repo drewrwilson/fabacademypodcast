@@ -16,8 +16,6 @@ video:
   duration: 4699
   language: en
   medium: video
-  title: "Lesson 01: Project Management"
-  description: "Lesson 01: Project Management The first lesson of the Fabacademy 2016: Project Management"
   ratingSimple: nonadult
   ratingvchip: tv-g
   productionCompany: FabAcademy

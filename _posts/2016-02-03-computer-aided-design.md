@@ -15,8 +15,6 @@ video:
   duration: 4422
   language: en
   medium: video
-  title: "Lesson 02: Computer-Aided Design"
-  description: "Computer-Aided Design http://academy.cba.mit.edu/classes/computer_design/index.html"
   ratingSimple: nonadult
   ratingvchip: tv-g
   productionCompany: FabAcademy

@@ -50,7 +50,7 @@
       <media:thumbnail url="{{site.domain}}{{item.video.thumbnail}}"/>
       <media:content url="{{site.downloadsDirectoryURL}}{{item.video.url}}" fileSize="{{item.video.size}}" expression="{{item.video.expression}}" type="{{item.video.type}}" duration="{{item.video.duration}}" lang="{{item.video.language}}" medium="{{item.video.medium}}">
         <media:title type="plain">{{item.video.title}}</media:title>
-        <media:description>{{item.video.description}}</media:description>
+        <media:description>{{item.description}}</media:description>
         <media:rating scheme="urn:simple">{{item.video.ratingSimple}}</media:rating>
         <media:rating scheme="urn:v-chip">{{item.video.ratingvchip}}</media:rating>
         <media:credit role="production company">{{item.video.productionCompany}}</media:credit>
@@ -60,13 +60,13 @@
       <itunes:explicit>{{item.video.explicit}}</itunes:explicit>
       <itunes:duration>{{item.video.duration}}</itunes:duration>
       <itunes:summary>
-        <![CDATA[{{item.video.description}}]]>
+        <![CDATA[{{item.description}}]]>
       </itunes:summary>
       <itunes:image href="{{site.domain}}{{item.video.image}}"/>
       <content:encoded>
         <![CDATA[<h1>{{item.video.title}}</h1>
     <p>
-    {{item.video.description}}
+    {{item.description}}
     </p>
     <p><a href="{{site.downloadsDirectoryURL}}{{item.video.url}}">Download this show</a></p>]]>
       </content:encoded>
