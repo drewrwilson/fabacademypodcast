@@ -1,7 +1,7 @@
 title: "FabAcademy 2016"
 domain: https://drewrwilson.com/FabAcademy2016-VideoPodcast/
 #domain: http://localhost:4000/  #uncomment for local testing only
-#downloadsDirectory: downloads/  #uncomment for local testing only
+downloadsDirectoryURL: http://yolo.dreamhosters.com/fabacademy2016-podcast/
 rssURL: podcast.rss
 webpageURL: https://drewrwilson.com/FabAcademy2016-VideoPodcast/
 description: "FabAcademy is a five-month intensive course on digital fabrication. This is a feed of all the video content from the 2016 course. There are two lectures each week, one by Professor Neil Gershenfeld and also a guest lecturer"
