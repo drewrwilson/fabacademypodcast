@@ -68,7 +68,7 @@
     <p>
     {{item.video.description}}
     </p>
-    <p><a href="{{site.domain}}{{site.downloadsDirectoryURL}}{{item.video.url}}">Download this show</a></p>]]>
+    <p><a href="{{site.downloadsDirectoryURL}}{{item.video.url}}">Download this show</a></p>]]>
       </content:encoded>
     </item>
     {% endfor %}
