@@ -23,6 +23,6 @@ video:
   category: Technology
   explicit: clean
   duration: "01:13:41"
-  image: assets/img/Academany-Fab-2016.02.03D-Lesson-02-Computer-Aided-Design-HD-thumbnail-full.jpg
+  image: assets/img/Academany-Fab-2016.02.03D-Lesson-02-Computer-Aided-Design-HD-full.jpg
 
 ---
