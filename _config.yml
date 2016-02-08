@@ -1,1 +1,20 @@
-title: "FabAcademy 2016 Video Podcast"
+title: "FabAcademy 2016"
+domain: https://drewrwilson.com/FabAcademy2016-VideoPodcast/
+#domain: http://localhost:4000/  #uncomment for local testing only
+#downloadsDirectory: downloads/  #uncomment for local testing only
+rssURL: podcast.rss
+webpageURL: https://drewrwilson.com/FabAcademy2016-VideoPodcast/
+description: "FabAcademy is a five-month intensive course on digital fabrication. This is a feed of all the video content from the 2016 course. There are two lectures each week, one by Professor Neil Gershenfeld and also a guest lecturer"
+language: en-US
+webMaster: "literallydrew@drewrwilson.com"
+image:
+  url: assets/img/fabacademy-podcast-logo.jpg
+  width: 1000
+  height: 1000
+itunes:
+  author: FabAcademy 2016
+  category: Technology
+  category2: Non-Profit
+  email: literallydrew@drewrwilson.com
+  name: Drew Wilson
+  explicit: clean
