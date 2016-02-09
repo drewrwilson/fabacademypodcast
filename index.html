@@ -9,18 +9,27 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <style media="screen">
-    .subscribe-icon, .subscribe-icon:hover {
-      color: #fff;
+    a, a:link, a:visited, a:hover  {
+      color: #000;
+      text-decoration: underline;
+    }
+    a:hover  {
+      background-color: yellow;
+      text-decoration: underline;
+    }
+    .subscribe-icon, .subscribe-icon a, .subscribe-icon a:link, .subscribe-icon a:visited, .subscribe-icon:hover {
+      color: #fff !important;
       background: #000;
       padding: 8px 20px 8px 8px;
       border-radius: 5px;
     }
-    a, a:link, a:hover  {
-      color: #000;
-      text-decoration: none;
+    body {
+      background-image: url({{site.domain}}assets/img/grid.png);
+      background-color: #FFFBFF;
     }
-    a:hover {
-      text-decoration: underline;
+    hr {
+      width: 66%;
+      border: 1px solid #666;
     }
     </style>
 
@@ -82,6 +91,8 @@
                 {{post.description}}
               </p>
               <p>
+                <a href="{{post.link}}" download>Watching streaming</a> // 
+
                 <a href="{{site.downloadsDirectoryURL}}{{post.video.url}}" download><i class="fa fa-download"></i>
 Direct Download</a>
               </p>
