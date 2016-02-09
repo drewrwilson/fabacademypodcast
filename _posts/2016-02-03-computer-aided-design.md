@@ -7,7 +7,7 @@ description: "Computer-Aided Design http://academy.cba.mit.edu/classes/computer_
 pubDate: Wed, 03 Feb 2016 08:00:00 -0500
 guid: "004"
 video:
-  url: Academany-Fab-2016.02.03D-Lesson-02--Computer-Aided-Design-HD.mp4
+  url: Academany-Fab-2016.02.03D-Lesson-02-Computer-Aided-Design-HD.mp4
   type: video/mp4
   size: 511048864
   thumbnail: assets/img/Academany-Fab-2016.02.03D-Lesson-02-Computer-Aided-Design-HD-thumbnail.jpg
