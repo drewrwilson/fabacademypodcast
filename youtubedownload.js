@@ -11,7 +11,7 @@ var video = youtubedl(youtubeLink,
   ['--format=mp4'],
   ['--write-info-json'],
   ['--restrict-filenames'],
-  ['--write-all-thumbnails']
+  ['--write-all-thumbnails'],
   // Additional options can be given for calling `child_process.execFile()`.
   { cwd: __dirname });
 
