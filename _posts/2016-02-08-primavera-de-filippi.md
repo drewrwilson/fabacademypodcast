@@ -4,7 +4,7 @@ published: true # this indicates that this item will not show up in the podcast 
 title: "Recitation 02: Primavera de Filippi, Berkman Center at Harvard"
 link: https://youtu.be/E1p0ffBOwHE
 description: "Bitcoin, Internet of Things, Plantdroids"
-pubDate: Mon, 08 Feb 2016 08:00:00 -0500
+pubDate: "Mon, 08 Feb 2016 08:00:00 -0500"
 guid: "005"
 video:
   url: 2016-02-08-Primavera-de-Filippi-Berkman-Center-at-Harvard.mp4

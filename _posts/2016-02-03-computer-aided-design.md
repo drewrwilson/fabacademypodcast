@@ -4,7 +4,7 @@ published: true # this indicates that this item will not show up in the podcast 
 title: "Lesson 02: Computer-Aided Design"
 link: https://vimeo.com/154077397
 description: "Computer-Aided Design http://academy.cba.mit.edu/classes/computer_design/index.html"
-pubDate: Wed, 03 Feb 2016 08:00:00 -0500
+pubDate: "Wed, 03 Feb 2016 08:00:00 -0500"
 guid: "004"
 video:
   url: Academany-Fab-2016.02.03D-Lesson-02-Computer-Aided-Design-HD.mp4

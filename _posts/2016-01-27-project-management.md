@@ -5,7 +5,7 @@ title: "Lesson 01: Project Management"
 link: https://vimeo.com/153263942
 description: "Lesson 01: Project Management The first lesson of the Fabacademy 2016: Project Management
 http://academy.cba.mit.edu/classes/project_management/index.html"
-pubDate: Wed, 27 Jan 2016 08:00:00 -0500
+pubDate: "Wed, 27 Jan 2016 08:00:00 -0500"
 guid: "002"
 video:
   url: Academany-Fab-2016.01.27D-Lesson-01-Project-Management-HD.mp4

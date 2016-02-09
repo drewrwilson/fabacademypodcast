@@ -4,7 +4,7 @@ published: true # this indicates that this item will not show up in the podcast 
 title: "Recitation 01: Massimo Banzi, Arduino Co-founder"
 link: https://youtu.be/782OfIQsu2k
 description: "Recitation 01: Massimo Banzi, Arduino Co-founder"
-pubDate: Mon, 01 Feb 2016 08:00:00 -0500
+pubDate: "Mon, 01 Feb 2016 08:00:00 -0500"
 guid: "003"
 video:
   url: 2016-02-01-Massimo-Branzi-Arduino-co-founder.mp4
