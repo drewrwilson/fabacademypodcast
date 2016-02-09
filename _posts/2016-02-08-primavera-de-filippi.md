@@ -10,7 +10,7 @@ video:
   url: 2016-02-08-Primavera-de-Filippi-Berkman-Center-at-Harvard.mp4
   type: video/mp4
   size: 296074304
-  thumbnail: assets/img/2016-02-08-Primavera-de-Filippi-Berkman-Center-at-Harvard.mp4-thumbnail.jpg
+  thumbnail: assets/img/2016-02-08-Primavera-de-Filippi-Berkman-Center-at-Harvard-thumbnail.jpg
   expression: full
   duration: 3355
   language: en
