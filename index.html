@@ -7,31 +7,87 @@
     <meta charset="utf-8">
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style media="screen">
+    .subscribe-icon, .subscribe-icon:hover {
+      color: #fff;
+      background: #000;
+      padding: 8px 20px 8px 8px;
+      border-radius: 5px;
+    }
+    a h1, a:link h1, a:hover h1  {
+      color: #000;
+      text-decoration: none;
+    }
+    a:hover h1 {
+      text-decoration: underline;
+    }
+    </style>
+
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="jumbotron">
+      <header class="text-center">
+      <div class="jumbotron" style="background: url('/assets/img/workshop-bench-md.jpg'); background-size:cover;">
         <p class="text-center">
           <h1>{{site.title}}</h1>
         </p>
         <p>
-          <strong>Weekly Lectures, in an iTunes-compatible video podcast. </strong>
+          <strong>The Weekly Lectures in an iTunes-Compatible Video Podcast</strong>
         </p>
-        <p>
+        <p style="margin-left: 2em; margin-right: 2em;">
           <a href="http://fabacademy.org">FabAcademy</a> is a five-month intensive course on digital fabrication. This is a video podcast feed of all the video lectures from the 2016 course. There are two lectures each week, one by Professor Neil Gershenfeld and also one by a guest lecturer
         </p>
-        <div class="text-center" style="margin: 1em 2em 2em 2em; padding: 0em 1em 2em 1em; text-transform: uppercase;">
-          <h2>Subscribe <small></small></h2>
-          <a class="btn btn-primary btn-lg" href="{{site.domain}}{{site.rssURL}}" role="button">Get the RSS</a>
+        <div class="text-center" style="text-transform: uppercase;">
+          <h2>Subscribe</h2>
+
+          <p>
+            <!-- <a href="#"><img src="/assets/img/itunes.png" alt="" style="margin-top:-5px;"></a> -->
+
+            <a class="subscribe-icon" href="{{site.domain}}{{site.rssURL}}">
+              <span class="fa-stack fa-lg">
+                <!-- <i class="fa fa-square-o fa-stack-2x"></i> -->
+                <i class="fa fa-rss-square fa-stack-1x"></i>
+              </span>RSS
+            </a>
+
+          </p>
         </div>
         <p  style="font-size: 1em;">
-          <em><strong>Why a podcast? </strong>I'm a student in the 2016 class. I work during the day and it's often difficult for me to make it to the live-streamed lecture, so I made this podcast version so I can watch them right after they are published. By subscribing, new lectures are downloaded directly to my phone and I can watch them on my commute home. Hopefully having the videos in this format is useful for you too.</em>
+          <em><strong>Why a podcast? </strong>I'm <a href="https://drewrwilson.com/fabacademy/">a student in the 2016 class</a>. I work during the day and it's often difficult for me to make it to the live-streamed lecture, so I made this podcast version so I can watch the lectures when they are published. By subscribing, new lectures are downloaded directly to my phone and I can watch them on my commute home. Hopefully having the videos in this format is useful for you too.</em>
         </p>
       </div>
+      </header>
+
       <main>
         <div class="container-fluid">
-          <!-- <h1>hello <small></small></h1> -->
-        </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-2">
+              <h2 style="text-transform: uppercase; color: #333">Recent Videos</h2>
+            </div>
+          </div>
+
+          {% for post in site.posts %}
+          <div class="row">
+            <div class="col-xs-4 col-sm-2 col-sm-offset-2">
+              <a href="{{post.link}}">
+                <img src="{{site.domain}}{{post.video.thumbnail}}" alt="" class="img-responsive" />
+              </a>
+            </div>
+            <div class="col-xs-8 col-sm-6">
+              <a href="{{post.link}}">
+                <h1>{{post.title}}</h1>
+              </a>
+              <h2 style="text-transform: uppercase; font-size: 1.5em;">{{post.date | date: "%B %d, %Y"}} <small></small></h2>
+              <p>
+                {{post.description}}
+              </p>
+            </div>
+          </div>
+            <hr>
+
+
+          {% endfor %}
+          </div>
 
       </main>
     </div>

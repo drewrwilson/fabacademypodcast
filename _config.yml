@@ -1,4 +1,4 @@
-title: "FabAcademy 2016"
+title: "FabAcademy 2016 Podcast"
 domain: https://drewrwilson.com/fabacademypodcast/
 #domain: http://localhost:4000/  #uncomment for local testing only
 downloadsDirectoryURL: http://yolo.dreamhosters.com/fabacademy2016-podcast/
@@ -18,3 +18,4 @@ itunes:
   email: literallydrew@drewrwilson.com
   name: Drew Wilson
   explicit: clean
+permalink: /:title
