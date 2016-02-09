@@ -1,10 +1,24 @@
 ---
+meta:
+  ogimage: "assets/img/share-img-lg.jpg"
 ---
 
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
+    <meta property="og:type" content="webpage">
+		<meta property="og:url" content="{{site.domain}}{{page.slug}}">
+		<meta property="og:image" content="{{site.domain}}{{page.meta.ogimage}}">
+		<meta property="og:title" content="{{site.title}}">
+		<meta property="og:site_name" content="{{site.title}}">
+		<meta property="og:description" content="{{site.description}}">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="{{site.title}}">
+		<meta name="twitter:description" content="{{site.description}}">
+		<meta name="twitter:image" content="{{site.domain}}{{page.meta.ogimage}}">
+
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -110,7 +124,7 @@ Direct Download</a>
       <p  style="font-size: 1em; padding: 2em;" class="text-center">
         Unless otherwise noted, these videos were created by <a href="http://Fabacademy.org">FabAcademy</a> during the 2016 course. You can see <a href="http://archive.fabacademy.org/archives/2016/master/schedule.html">the entire course schedule here</a>.
         <br>
-        Videos are licensed under Creative Commons ShareAlike: <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>. The code for this webpage and the code that downloads lectures & publishes this podcast are both <a href="https://github.com/drewrwilson/fabacademypodcast">open source</a>. 
+        Videos are licensed under Creative Commons ShareAlike: <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>. The code for this webpage and the code that downloads lectures & publishes this podcast are both <a href="https://github.com/drewrwilson/fabacademypodcast">open source</a>.
       </p>
     </footer>
     <script>
