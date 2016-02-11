@@ -1,7 +1,7 @@
 ---
 
 published: true # this indicates that this item will not show up in the podcast feed
-title: "Academany Fab-2016.02.10D Lesson 03: Computer-Controlled Cutting"
+title: "Lesson 03: Computer-Controlled Cutting"
 link: https://vimeo.com/155004500
 description: "Cutting with machines"
 pubDate: "Wed, 10 Feb 2016 09:00:00 -0500"

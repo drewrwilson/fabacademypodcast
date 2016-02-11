@@ -1,7 +1,7 @@
 ---
 
 published: true # this indicates that this item will not show up in the podcast feed
-title: "Academany Fab-2016.02.10B Review 02: Computer-Aided Design"
+title: "Review 02: Computer-Aided Design"
 link: https://vimeo.com/155002904
 description: "Review from last week's Computer-Aided Design"
 pubDate: "Wed, 10 Feb 2016 08:00:00 -0500"
