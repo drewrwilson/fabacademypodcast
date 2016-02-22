@@ -21,7 +21,6 @@ var exec = require('child_process').exec;
 var scp = require('scp'); //module for ssh transferring to server
 
 youtubeLink = process.argv[2]; //link to youtube, might need to be http (not https) only
-outputPath = process.argv[3]; //path for new file
 
 var newPost = {};
 var blogPostFilename = '';
@@ -41,9 +40,6 @@ var uuid = UUID.v1();
 // Will be called when the download starts.
 video.on('info', function(info) {
   console.log('Starting video download');
-
-  //convert filename to no whitespace and dashes:
-  filename = info._filename.replace('/:/','').replace(/\s\s+/g, '-').replace(/ +/g, '-').replace(/-+/g, '-');
 
   //download the thumbnail and save it
   //or generate it, not sure yet. download it now, generate it later.
@@ -68,7 +64,7 @@ video.on('info', function(info) {
   pubDate: todayDate,
   guid: uuid,
   video: {
-      url: filename,
+      url: info._filename.replace('/:/','').replace(/\s\s+/g, '-').replace(/ +/g, '-').replace(/-+/g, '-'),  //convert filename to no whitespace and dashes
       type: "video/mp4",
       size: info.size,
       thumbnail: assetsImgDir + thumbnailImg,
@@ -96,7 +92,7 @@ video.on('info', function(info) {
   request(info.thumbnails[0]).pipe(fs.createWriteStream(assetsImgDir + thumbnailImg));
 
   //output video data as a YAML filename
-  blogPostFilename = info.upload_date.substring(0,4) + '-' + info.upload_date.substring(4,6) + '-' + info.upload_date.substring(6,8) + '-' + filename + '.md';
+  blogPostFilename = info.upload_date.substring(0,4) + '-' + info.upload_date.substring(4,6) + '-' + info.upload_date.substring(6,8) + '-' + newPost.video.url + '.md';
   blogPostFilename = postsDir + blogPostFilename;
 
   fs.writeFile(blogPostFilename, vimeoYAML, 'utf8', function () {
@@ -105,25 +101,28 @@ video.on('info', function(info) {
 
 });
 
-var fileOutput = outputPath + filename;
-video.pipe(yo = fs.createWriteStream(fileOutput));
+video.pipe(yo = fs.createWriteStream(filename));
 
 yo.addListener('finish', function () {
 
-  console.log('Saved video file: ' + filename);
+  console.log('Saved video file: ' + newPost.video.url);
   console.log();
   console.log('****************************************');
   console.log('***');
   console.log('***   Now you need to upload the file and commit the blog post');
   console.log('***');
-  console.log('*** scp ' + filename +' ' + scpText);
+  console.log('*** scp ' + newPost.video.url +' ' + scpText);
   console.log('***');
   console.log('***');
   console.log('*** now commit this post to github:');
   console.log('***');
   console.log('*** git add ' + newPost.video.thumbnail + ' ' + postsDir + blogPostFilename);
-  console.log('*** git commit -m \'Add new video post: ' + filename + '\'');
+  console.log('*** git commit -m \'Add new video post: ' + newPost.video.url + '\'');
   console.log('***');
   console.log('****************************************');
+
+  exec('mv ' + filename + ' ' + newPost.video.url, function (err, stdout, stderr) {
+    if (err) throw new Error(err);
+  });
 
 });
