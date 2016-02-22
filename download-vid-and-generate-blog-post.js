@@ -1,6 +1,9 @@
 //TODO:
 // add npm github module, so I can check in new post
 
+var scpText = process.env.SCPTEXT;
+
+
 var postsDir = '_posts/';
 var assetsImgDir = 'assets/img/';
 
@@ -13,13 +16,19 @@ UUID = require('uuid');
 // request npm module
 var request = require('request');
 
+var exec = require('child_process').exec;
+
 var scp = require('scp'); //module for ssh transferring to server
 
 youtubeLink = process.argv[2]; //link to youtube, might need to be http (not https) only
 outputPath = process.argv[3]; //path for new file
 
+var newPost = {};
+var blogPostFilename = '';
+
 var fs = require('fs'); //npm module for filesystem stuff
 var youtubedl = require('youtube-dl'); //npm module for downloading videos
+var filename = 'new-video.mp4'; //default filename
 
 var video = youtubedl(youtubeLink,
   // Optional arguments passed to youtube-dl.
@@ -34,7 +43,7 @@ video.on('info', function(info) {
   console.log('Starting video download');
 
   //convert filename to no whitespace and dashes:
-  var filename = info._filename.replace('/:/','').replace(/\s\s+/g, '-').replace(/ +/g, '-').replace(/-+/g, '-');
+  filename = info._filename.replace('/:/','').replace(/\s\s+/g, '-').replace(/ +/g, '-').replace(/-+/g, '-');
 
   //download the thumbnail and save it
   //or generate it, not sure yet. download it now, generate it later.
@@ -51,7 +60,7 @@ video.on('info', function(info) {
   var todayDate = new Date();
   todayDate = todayDate.toGMTString();
 
-  var video = {
+  newPost = {
   "published": "true",
   "title": info.fulltitle,
   "link": info.webpage_url,
@@ -75,19 +84,19 @@ video.on('info', function(info) {
       image: assetsImgDir + fullImg
     }
   };
-  console.log('Video info:');
-  console.log(video);
+  // console.log('Video info:');
+  // console.log(video);
 
   //convert video JSON to YAML
   var vimeoYAML = '--- \n'; //add to indicate to Jekyll that this is front matter
-  vimeoYAML += YAML.stringify(video);
+  vimeoYAML += YAML.stringify(newPost);
   vimeoYAML += '--- \n'; //add to indicate to Jekyll that this is front matter
 
   //download the thumbnail of the Video
   request(info.thumbnails[0]).pipe(fs.createWriteStream(assetsImgDir + thumbnailImg));
 
   //output video data as a YAML filename
-  var blogPostFilename = info.upload_date.substring(0,4) + '-' + info.upload_date.substring(4,6) + '-' + info.upload_date.substring(6,8) + '-' + filename + '.md';
+  blogPostFilename = info.upload_date.substring(0,4) + '-' + info.upload_date.substring(4,6) + '-' + info.upload_date.substring(6,8) + '-' + filename + '.md';
   blogPostFilename = postsDir + blogPostFilename;
 
   fs.writeFile(blogPostFilename, vimeoYAML, 'utf8', function () {
@@ -96,5 +105,25 @@ video.on('info', function(info) {
 
 });
 
-fileOutput = outputPath; // + filename;
-video.pipe(fs.createWriteStream(fileOutput));
+var fileOutput = outputPath + filename;
+video.pipe(yo = fs.createWriteStream(fileOutput));
+
+yo.addListener('finish', function () {
+
+  console.log('Saved video file: ' + filename);
+  console.log();
+  console.log('****************************************');
+  console.log('***');
+  console.log('***   Now you need to upload the file and commit the blog post');
+  console.log('***');
+  console.log('*** scp ' + filename +' ' + scpText);
+  console.log('***');
+  console.log('***');
+  console.log('*** now commit this post to github:');
+  console.log('***');
+  console.log('*** git add ' + newPost.video.thumbnail + ' ' + postsDir + blogPostFilename);
+  console.log('*** git commit -m \'Add new video post: ' + filename + '\'');
+  console.log('***');
+  console.log('****************************************');
+
+});
