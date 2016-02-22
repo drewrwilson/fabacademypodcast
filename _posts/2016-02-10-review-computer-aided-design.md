@@ -12,7 +12,6 @@ video:
   size: 555239778
   thumbnail: assets/img/Academany-Fab-2016.02.10B-Review-02-Computer-Aided-Design-thumbnail.jpg
   expression: full
-  duration: #
   language: en
   medium: video
   ratingSimple: nonadult
