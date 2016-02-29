@@ -9,7 +9,7 @@ video:
     url: Vinay-Gupta-Fab-Academy-Recitations-3wSGMv-ULxM.mp4
     type: video/mp4
     size: 533558846
-    thumbnail: assets/img/Vinay-Gupta-Fab-Academy-Recitations-3wSGMv-ULxM.mp4.jpg
+    thumbnail: assets/img/Vinay-Gupta-Fab-Academy-Recitations-3wSGMv-ULxM.mp4-thumbnail.jpg
     expression: full
     language: en
     medium: video
