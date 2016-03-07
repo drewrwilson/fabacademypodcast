@@ -1,6 +1,6 @@
 ---
 published: 'true'
-title: 'Vinay Gupta - Fab Academy Recitations'
+title: 'Recition 05: Vinay Gupta'
 link: 'https://www.youtube.com/watch?v=3wSGMv-ULxM'
 description: 'On creating a new economy and using the human power for a better future.'
 pubDate: 'Mon, 29 Feb 2016 19:50:43 GMT'
