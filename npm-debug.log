@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i', 'child_process', '--save' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'child_process', null ]
+6 verbose cache add name=undefined spec="child_process" args=["child_process",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'child_process',
+7 verbose parsed url   path: 'child_process',
+7 verbose parsed url   href: 'child_process' }
+8 silly lockFile 4845fa97-child-process child_process
+9 verbose lock child_process /Users/dw/.npm/4845fa97-child-process.lock
+10 silly lockFile 4845fa97-child-process child_process
+11 silly lockFile 4845fa97-child-process child_process
+12 verbose addNamed [ 'child_process', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 512a7ef6-child-process child_process@
+15 verbose lock child_process@ /Users/dw/.npm/512a7ef6-child-process.lock
+16 silly addNameRange { name: 'child_process', range: '*', hasData: false }
+17 verbose url raw child_process
+18 verbose url resolving [ 'https://registry.npmjs.org/', './child_process' ]
+19 verbose url resolved https://registry.npmjs.org/child_process
+20 info trying registry request attempt 1 at 18:02:26
+21 http GET https://registry.npmjs.org/child_process
+22 http 404 https://registry.npmjs.org/child_process
+23 silly registry.get cb [ 404,
+23 silly registry.get   { 'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=0',
+23 silly registry.get     'content-length': '2',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     date: 'Wed, 09 Mar 2016 23:02:26 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-atl6229-ATL',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1457564546.634094,VS0,VE32' } ]
+24 silly addNameRange number 2 { name: 'child_process', range: '*', hasData: true }
+25 silly addNameRange versions [ undefined, [] ]
+26 error TypeError: Cannot read property 'latest' of undefined
+26 error     at next (/usr/local/lib/node_modules/npm/lib/cache.js:744:35)
+26 error     at /usr/local/lib/node_modules/npm/lib/cache.js:732:5
+26 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:148:7)
+26 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+26 error     at Object.oncomplete (fs.js:107:15)
+27 error If you need help, you may report this *entire* log,
+27 error including the npm and node versions, at:
+27 error     <http://github.com/npm/npm/issues>
+28 error System Darwin 15.3.0
+29 error command "node" "/usr/local/bin/npm" "i" "child_process" "--save"
+30 error cwd /Users/dw/Sites/FabAcademy/fabacademypodcast
+31 error node -v v0.10.26
+32 error npm -v 1.4.3
+33 error type non_object_property_load
+34 verbose exit [ 1, true ]

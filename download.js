@@ -18,8 +18,6 @@ var request = require('request');
 
 var exec = require('child_process').exec;
 
-var scp = require('scp'); //module for ssh transferring to server
-
 youtubeLink = process.argv[2]; //link to youtube, might need to be http (not https) only
 
 var newPost = {};
