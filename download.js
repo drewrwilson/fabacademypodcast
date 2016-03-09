@@ -44,11 +44,6 @@ video.on('info', function(info) {
   //download the thumbnail and save it
   //or generate it, not sure yet. download it now, generate it later.
 
-  var thumbnailImg = filename + '-thumbnail.jpg';
-
-  //for now make full image the same as thumbnail
-  var fullImg = thumbnailImg;
-
   //generate a publish date based on the video date
   // var pubDate = new Date(info.upload_date);
 
@@ -67,7 +62,7 @@ video.on('info', function(info) {
       url: info._filename.replace('/:/','').replace(/\s\s+/g, '-').replace(/ +/g, '-').replace(/-+/g, '-'),  //convert filename to no whitespace and dashes
       type: "video/mp4",
       size: info.size,
-      thumbnail: assetsImgDir + thumbnailImg,
+      thumbnail: assetsImgDir + uuid + '-thumbnail.jpg',
       expression: "full",
       language: "en",
       medium: "video",
@@ -77,7 +72,7 @@ video.on('info', function(info) {
       category: "Technology",
       explicit: "clean",
       duration: info.duration,
-      image: assetsImgDir + fullImg
+      image: assetsImgDir + uuid + '-full.jpg'
     }
   };
   // console.log('Video info:');
