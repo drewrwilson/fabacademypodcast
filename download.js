@@ -82,7 +82,7 @@ video.on('info', function(info) {
   vimeoYAML += '--- \n'; //add to indicate to Jekyll that this is front matter
 
   //download the thumbnail of the Video
-  request(info.thumbnails[0]).pipe(fs.createWriteStream(assetsImgDir + thumbnailImg));
+  // request(info.thumbnails[0]).pipe(fs.createWriteStream(assetsImgDir + thumbnailImg));
 
   //output video data as a YAML filename
   blogPostFilename = info.upload_date.substring(0,4) + '-' + info.upload_date.substring(4,6) + '-' + info.upload_date.substring(6,8) + '-' + newPost.video.url + '.md';
